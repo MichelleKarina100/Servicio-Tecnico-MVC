@@ -1,0 +1,111 @@
+body{
+    background-image: linear-gradient(120deg, rgba(137, 246, 254, 0.363) 0%, rgba(102, 166, 255, 0.897) 100%), url(../img/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(137, 246, 254, 0.363) 0%, rgba(102, 166, 255, 0.274) 100%), url(../img/fon.jpg);
+}
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+table{
+    width: 80%;
+    margin: 4%;
+    background: rgb(13, 81, 170);
+    text-align: center;
+
+}
+table.list{
+    text-align: center;
+    width: 100%;
+    
+}
+td{
+    border: 1px solid rgb(204, 200, 200);
+    text-align: center;
+    padding: 8px 15px;
+
+}
+tr:nth-child(even), table.list thead> tr{
+    background: rgb(204, 200, 200);
+}
+input[type="text"],input[type="number"]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background: #000;
+    width: 30000px;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+
+}
+input[type="submit"]:hover{
+    background: #4b99d8;
+
+}
+button{
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: #4b99d8;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left: 140px;
+    padding: 0px 0px;
+    
+}
+.a2{
+    text-align: center;
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    color: #fff;
+    background-color: #dbdaee5e;
+}
+.uno{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+}
+.dos{
+    border-radius: 80%;
+
+}
